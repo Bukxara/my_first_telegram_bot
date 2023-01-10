@@ -1,11 +1,12 @@
 import logging
+from config import API_TOKEN, admin
 
 from aiogram import Bot, Dispatcher, executor, types
 from sq_cls import Database
 from buttons import *
 
-API_TOKEN = '5936380794:AAEbqBa3emZUp3lgKGA2g76dR09U3qtGPtE'
-admin = 847704113
+#TOKEN AND ADMIN FILES ARE LOCATED IN config.py FILE
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
